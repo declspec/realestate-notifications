@@ -1,0 +1,29 @@
+{
+  "name": "realestate-notifications",
+  "version": "1.0.0",
+  "description": "Create observable searches against realestate.com.au",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/declspec/realestate-notifications.git"
+  },
+  "keywords": [
+    "realestate",
+    "notifications",
+    "rxjs"
+  ],
+  "author": "Jason Larke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/declspec/realestate-notifications/issues"
+  },
+  "homepage": "https://github.com/declspec/realestate-notifications#readme",
+  "dependencies": {
+    "@types/cheerio": "^0.22.10",
+    "cheerio": "^1.0.0-rc.2",
+    "rxjs": "^6.4.0"
+  }
+}
