@@ -4,7 +4,8 @@
   "description": "Create observable searches against realestate.com.au",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist/ types/ && tsc"
   },
   "repository": {
     "type": "git",
